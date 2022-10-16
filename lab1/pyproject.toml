@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "lab1"
+version = "0.1.0"
+description = ""
+authors = ["Lorenzo Radaele s301165 <s301165@studenti.polito.it>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
