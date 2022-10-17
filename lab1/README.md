@@ -17,4 +17,4 @@ In the priority function we have considered both the cost of the current solutio
 | 20 | 23 |      562         | 1.3 |
 | 100   | 171 |    562           | 4 |
 | 500    | 1240 |   347            | 15 |
-| 1000    | 2788 |     15          | 30 |
+| 1000    | 2788 |     1090          | 25 |

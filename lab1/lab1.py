@@ -1,8 +1,6 @@
 import random
 import logging
-from turtle import pos
 from typing import Callable
-import numpy as np
 from gx_utils import *
 
 logging.getLogger().setLevel(logging.INFO)
@@ -107,7 +105,7 @@ def result(state: State, new_tuple):
 def h(state : State):
     return -state.coverage()
 
-for N, k in zip([5, 10, 20, 100, 500, 1000], [1.3, 1.3, 1.3, 4, 15, 30]):
+for N, k in zip([5, 10, 20, 100, 500, 1000], [1.3, 1.3, 1.3, 4, 15, 25]):
     GOAL = set(range(N))
     logging.info(f"Goal:\n{GOAL}")
 
