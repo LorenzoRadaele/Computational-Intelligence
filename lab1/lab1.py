@@ -107,7 +107,7 @@ def result(state: State, new_tuple):
 def h(state : State):
     return -state.coverage()
 
-for N in [5, 10, 20]: #, 100, 500, 1000]:
+for N, k in zip([5, 10, 20, 100, 500, 1000], [1.3, 1.3, 1.3, 4, 15, 30]):
     GOAL = set(range(N))
     logging.info(f"Goal:\n{GOAL}")
 
@@ -119,7 +119,7 @@ for N in [5, 10, 20]: #, 100, 500, 1000]:
         State(tuple(())),
         goal_test=goal_test,
         goal_length=N,
-        priority_function=lambda s: len(s) + 1.3*h(s),  # we want to prioritize the coverage of the solution over its length
+        priority_function=lambda s: len(s) + k*h(s),  # we want to prioritize the coverage of the solution over its length
         unit_cost=lambda a: len(a),
         lists=possible_lists
     )
