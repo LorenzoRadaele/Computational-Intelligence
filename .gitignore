@@ -1,1 +1,3 @@
-__pycache__/
+
+#Poetry files
+.venv
