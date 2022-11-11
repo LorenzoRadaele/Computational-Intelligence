@@ -7,3 +7,8 @@ This my personal repo for the code developed during the course of Computational 
 - Davide Aiello (https://github.com/davideaiello/CI22-23_s303296)
 - Cristiano Serra (https://github.com/Critaek/Computational_Intelligence_22)
 - Edoardo Alberti (https://github.com/xleddyl/computational-intelligence)
+
+#### Lab1
+- Davide Aiello (https://github.com/davideaiello/CI22-23_s303296)
+- Cristiano Serra (https://github.com/Critaek/Computational_Intelligence_22)
+- Edoardo Alberti (https://github.com/xleddyl/computational-intelligence)
